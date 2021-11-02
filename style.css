@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+
+header a {
+  text-decoration: none;
+  color: #00ae81;
+}
+
+header i {
+  font-size: 16px;
+}
+
+.search {
+  border-radius: 5px;
+  width: 192px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+/* Main */
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #6e6e6e;
+}
+
+.client-tab {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 350px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.client-form {
+  padding-bottom: 30px;
+  border-radius: 15px;
+  padding: 20px 10px 0px 10px;
+
+}
+
+.client-info {
+  background-color: #f7f7f7;
+  border-radius: 15px 15px 0 0;
+  padding: 20px 10px 10px 10px;
+  line-height: 20px;
+
+}
+
+.name {
+  line-height: 9px;
+}
+
+.save {
+  background-color: #00ae81;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: none;
+}
+
+.save:hover {
+  background-color: #018a65;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #666666;
+}
+
+select.customDropdown::-ms-expand {
+  display: none;
+}
+
+.saveFile {
+  background-color: #00ae81;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn-txt,
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 3px;
+  height: 100%;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+  border-color: #00ae81;
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(126, 239, 104, 0.6); */
+  outline: none;
+  font-size: 14px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #00ae81;
+  border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+  font-size: 12px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+.uneditable-input {
+  outline: 0 none;
+  font-size: 14px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  border-radius: 0;
+}
+
+.form-floating .form-select {
+  border: none;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  border-radius: 0;
+}
+
+.form-floating .form-select:focus {
+  border: none;
+  border-bottom: 2px solid #00ae81;
+  border-radius: 0;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #6e6e6e;
+    text-align: center;
+  }
+
+}
